@@ -1,9 +1,13 @@
 # Webex Connect HR Bot
+Welcome to our WXSD DEMO Repo! <!-- Keep this here --> 
 
 This is a Webex Messaging Bot which runs on the Webex Connect CPaaS platform. It leverages the Webex Connect Q&A Bot builder to respond to users queries and also can process Adaptive Card Actions via the flow and communicate with other integration services..
 
 ![image](https://user-images.githubusercontent.com/21026209/217918129-07f1cc12-52c4-4008-983d-c9255455557b.png)
 
+
+<!-- Keep the following here -->  
+ *_Everything included is for demo and Proof of Concept purposes only. Your use of the site is solely at your own risk. This site may contain links to third party content, which we do not warrant, endorse, or assume liability for. These demos are for Cisco Webex usecases, but are not Official Cisco Webex Branded demos._
 ## Requirements
 
 1. Webex Connect Sandbox - Available to setup here: https://imimobile.com/products/webex-connect/sandbox
