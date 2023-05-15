@@ -1,16 +1,13 @@
 # Webex Connect HR Bot
-Welcome to our WXSD DEMO Repo! <!-- Keep this here --> 
+
 
 This is a Webex Messaging Bot which runs on the Webex Connect CPaaS platform. It leverages the Webex Connect Q&A Bot builder to respond to users queries and also can process Adaptive Card Actions via the flow and communicate with other integration services..
 
 <img width="1684" alt="image" src="https://user-images.githubusercontent.com/21026209/227618565-db187c29-83f8-4f73-a675-b0d6b2a6f627.png">
 
-<!-- Keep the following here -->  
- *_Everything included is for demo and Proof of Concept purposes only. Your use of the site is solely at your own risk. This site may contain links to third party content, which we do not warrant, endorse, or assume liability for. These demos are for Cisco Webex usecases, but are not Official Cisco Webex Branded demos._
-## Requirements
 
-1. Webex Connect Sandbox - Available to setup here: https://imimobile.com/products/webex-connect/sandbox
-2. Webex Messaging Bot Token - Guide available here: https://developer.webex.com/docs/bots
+- Webex Connect Sandbox - Available to setup here: https://imimobile.com/products/webex-connect/sandbox
+- Webex Messaging Bot Token - Guide available here: https://developer.webex.com/docs/bots
 
 ## Setup
 
@@ -68,19 +65,11 @@ This is a Webex Messaging Bot which runs on the Webex Connect CPaaS platform. It
 
 ![image](https://user-images.githubusercontent.com/21026209/217930336-be959f9d-97d1-4552-892b-d506c6f6e752.png)
 
-5. Next, click ont eh Q&A Bot node and select the Bot you made ealier:
+5. Next, click ont eh Q&A Bot node and select the Bot you made earlier:
 
 ![image](https://user-images.githubusercontent.com/21026209/217933429-9eb85882-c9e0-47c1-a27e-edf57b62a436.png)
 
-6. Update the receive node and select the Webhook you created ealier and configure the following resume keys and values:
-
-![image](https://user-images.githubusercontent.com/21026209/217934456-0498c7d0-66cc-428e-abd6-951e38c50f87.png)
-
-7. Connect the ``Receive`` node to the ``Data Parser`` to the right
-
-![image](https://user-images.githubusercontent.com/21026209/217934837-69ddf7e0-ccf3-4378-bc75-21b06e39813d.png)
-
-8. Save the flow changes and click make live. Set the Webex Messaging Bot as variable ``Bearer <token>`` and set the Bots name & email and update the support mailer.
+6. Save the flow changes and click make live. Set the Webex Messaging Bot as variable ``Bearer <token>`` and set the Bots name & email and update the support mailer.
 
 ![image](https://user-images.githubusercontent.com/21026209/217935728-5c85657a-323f-45c2-85a0-be121fd02485.png)
 
@@ -88,7 +77,22 @@ This is a Webex Messaging Bot which runs on the Webex Connect CPaaS platform. It
 
 1. Create the Webex Webhook to point to the Webex Connect flows Webhook trigger so your Bot gets notified of any new Messages, Actions or Membership changes. More information available here: https://developer.webex.com/docs/webhooks
 
+  
+## Demo
 
-## Support
+*For more demos & PoCs like this, check out our [Webex Labs site](https://collabtoolbox.cisco.com/webex-labs).
 
-Please reach out to the WXSD team at [wxsd@external.cisco.com](mailto:wxsd@external.cisco.com?subject=room-presets-macro)
+
+## License
+
+All contents are licensed under the MIT license. Please see [license](LICENSE) for details.
+
+
+## Disclaimer
+
+Everything included is for demo and Proof of Concept purposes only. Use of the site is solely at your own risk. This site may contain links to third party content, which we do not warrant, endorse, or assume liability for. These demos are for Cisco Webex use cases, but are not Official Cisco Webex Branded demos.
+
+
+## Questions
+Please contact the WXSD team at [wxsd@external.cisco.com](mailto:wxsd@external.cisco.com?subject=room-presets-macro) for questions. Or, if you're a Cisco internal employee, reach out to us on the Webex App via our bot (globalexpert@webex.bot). In the "Engagement Type" field, choose the "API/SDK Proof of Concept Integration Development" option to make sure you reach our team. 
+
