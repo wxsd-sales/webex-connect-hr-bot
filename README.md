@@ -6,10 +6,14 @@ This is a Webex Messaging Bot which runs on the Webex Connect CPaaS platform. It
 <img width="1684" alt="image" src="https://user-images.githubusercontent.com/21026209/227618565-db187c29-83f8-4f73-a675-b0d6b2a6f627.png">
 
 
+## Setup
+
+### Prerequisites & Dependencies: 
+
 - Webex Connect Sandbox - Available to setup here: https://imimobile.com/products/webex-connect/sandbox
 - Webex Messaging Bot Token - Guide available here: https://developer.webex.com/docs/bots
 
-## Setup
+### Installation Steps:
 
 ### Setup Webex Connect Q&A Bot
 
