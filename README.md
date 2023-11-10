@@ -69,11 +69,20 @@ This is a Webex Messaging Bot which runs on the Webex Connect CPaaS platform. It
 
 ![image](https://user-images.githubusercontent.com/21026209/217930336-be959f9d-97d1-4552-892b-d506c6f6e752.png)
 
-5. Next, click ont eh Q&A Bot node and select the Bot you made earlier:
+5. Next, click on the Q&A Bot node within the flow designer
 
-![image](https://user-images.githubusercontent.com/21026209/217933429-9eb85882-c9e0-47c1-a27e-edf57b62a436.png)
+<img width="131" alt="image" src="https://github.com/wxsd-sales/webex-connect-hr-bot/assets/21026209/938a6220-d7d3-4045-8912-aff76052e26a">
 
-6. Save the flow changes and click make live. Set the Webex Messaging Bot as variable ``Bearer <token>`` and set the Bots name & email and update the support mailer.
+6. Select Process Message and then select the Bot you created earlier. Ensure that the ```$(messsageText)``` and  ```$(personId)``` variables are set for the message and unique ID fields.
+
+<img width="1283" alt="image" src="https://github.com/wxsd-sales/webex-connect-hr-bot/assets/21026209/76784d27-f432-4451-823f-5f3016f16d61">
+
+7. Make sure that QnA Bots responses are saved to the ```responses``` flow variable under the Transitions Action On-Leave
+
+![image](https://github.com/wxsd-sales/webex-connect-hr-bot/assets/21026209/7869ba0e-fc9d-49ca-9f99-2c11281024eb)
+
+
+8. Save the flow changes and click make live. Set the Webex Messaging Bot as variable ``Bearer <token>`` and set the Bots name & email and update the support mailer.
 
 ![image](https://user-images.githubusercontent.com/21026209/217935728-5c85657a-323f-45c2-85a0-be121fd02485.png)
 
