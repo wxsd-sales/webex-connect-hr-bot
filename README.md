@@ -3,7 +3,8 @@
 
 This is a Webex Messaging Bot which runs on the Webex Connect CPaaS platform. It leverages the Webex Connect Q&A Bot builder to respond to users queries and also can process Adaptive Card Actions via the flow and communicate with other integration services..
 
-<img width="1684" alt="image" src="https://user-images.githubusercontent.com/21026209/227618565-db187c29-83f8-4f73-a675-b0d6b2a6f627.png">
+
+<img width="2332" alt="image" src="https://github.com/wxsd-sales/webex-connect-hr-bot/assets/21026209/db73fb73-fd30-4088-b7fb-0aa51cd97492">
 
 
 ## Setup
